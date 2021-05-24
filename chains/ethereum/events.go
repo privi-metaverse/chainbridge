@@ -4,7 +4,7 @@
 package ethereum
 
 import (
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 )
 

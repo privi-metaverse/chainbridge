@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Privi-Protocol/ChainBridge/crypto"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
+	"github.com/Privi-Protocol/chainbridge-utils/crypto"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v2"
 )

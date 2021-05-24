@@ -12,8 +12,8 @@ import (
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
 	subtest "github.com/Privi-Protocol/ChainBridge/shared/substrate/testing"
-	"github.com/Privi-Protocol/ChainBridge/blockstore"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/blockstore"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )
 

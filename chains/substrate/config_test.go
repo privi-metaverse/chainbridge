@@ -6,7 +6,7 @@ package substrate
 import (
 	"testing"
 
-	"github.com/Privi-Protocol/ChainBridge/core"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
 )
 
 func TestParseStartBlock(t *testing.T) {

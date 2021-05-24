@@ -8,7 +8,7 @@ import (
 
 	"github.com/Privi-Protocol/ChainBridge/bindings/ERC20Handler"
 	ERC20 "github.com/Privi-Protocol/ChainBridge/bindings/ERC20PresetMinterPauser"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

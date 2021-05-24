@@ -7,7 +7,7 @@ import (
 	"math/big"
 
 	"github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

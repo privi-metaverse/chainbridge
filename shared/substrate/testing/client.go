@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"

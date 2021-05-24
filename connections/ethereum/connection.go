@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/Privi-Protocol/ChainBridge/connections/ethereum/egs"
-	"github.com/Privi-Protocol/ChainBridge/crypto/secp256k1"
+	"github.com/Privi-Protocol/chainbridge-utils/crypto/secp256k1"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethcommon "github.com/ethereum/go-ethereum/common"

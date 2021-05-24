@@ -13,7 +13,7 @@ import (
 
 	"github.com/ethereum/go-ethereum"
 
-	"github.com/Privi-Protocol/ChainBridge/crypto/secp256k1"
+	"github.com/Privi-Protocol/chainbridge-utils/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"

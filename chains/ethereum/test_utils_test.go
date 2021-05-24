@@ -12,8 +12,8 @@ import (
 	"github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
 	connection "github.com/Privi-Protocol/ChainBridge/connections/ethereum"
 	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

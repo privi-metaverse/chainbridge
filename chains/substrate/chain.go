@@ -24,12 +24,12 @@ As the writer receives messages from the router, it constructs proposals. If a p
 package substrate
 
 import (
-	"github.com/Privi-Protocol/ChainBridge/blockstore"
-	"github.com/Privi-Protocol/ChainBridge/core"
-	"github.com/Privi-Protocol/ChainBridge/crypto/sr25519"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
-	metrics "github.com/Privi-Protocol/ChainBridge/metrics/types"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/blockstore"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
+	"github.com/Privi-Protocol/chainbridge-utils/crypto/sr25519"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
+	metrics "github.com/Privi-Protocol/chainbridge-utils/metrics/types"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 )
 
