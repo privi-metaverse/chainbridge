@@ -10,7 +10,7 @@ import (
 	"github.com/Privi-Protocol/ChainBridge/e2e/substrate"
 	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
 	gsrpc "github.com/centrifuge/go-substrate-rpc-client"
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )
 
 func TestChain_Events(t *testing.T) {

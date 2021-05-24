@@ -14,7 +14,7 @@ import (
 	"github.com/Privi-Protocol/ChainBridge/keystore"
 	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ChainSafe/log15"
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )
 
 const TestSubEndpoint = "ws://localhost:9944"
