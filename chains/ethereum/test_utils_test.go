@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ChainSafe/ChainBridge/bindings/Bridge"
-	connection "github.com/ChainSafe/ChainBridge/connections/ethereum"
-	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
-	"github.com/ChainSafe/chainbridge-utils/keystore"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
+	connection "github.com/Privi-Protocol/ChainBridge/connections/ethereum"
+	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
+	"github.com/Privi-Protocol/ChainBridge/keystore"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

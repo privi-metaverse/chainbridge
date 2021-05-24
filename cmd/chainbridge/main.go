@@ -3,7 +3,7 @@
 /*
 Provides the command-line interface for the chainbridge application.
 
-For configuration and CLI commands see the README: https://github.com/ChainSafe/ChainBridge.
+For configuration and CLI commands see the README: https://github.com/Privi-Protocol/ChainBridge.
 */
 package main
 
@@ -15,13 +15,13 @@ import (
 
 	"strconv"
 
-	"github.com/ChainSafe/ChainBridge/chains/ethereum"
-	"github.com/ChainSafe/ChainBridge/chains/substrate"
-	"github.com/ChainSafe/ChainBridge/config"
-	"github.com/ChainSafe/chainbridge-utils/core"
-	"github.com/ChainSafe/chainbridge-utils/metrics/health"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/chains/ethereum"
+	"github.com/Privi-Protocol/ChainBridge/chains/substrate"
+	"github.com/Privi-Protocol/ChainBridge/config"
+	"github.com/Privi-Protocol/ChainBridge/core"
+	"github.com/Privi-Protocol/ChainBridge/metrics/health"
+	metrics "github.com/Privi-Protocol/ChainBridge/metrics/types"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	log "github.com/ChainSafe/log15"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/urfave/cli/v2"
