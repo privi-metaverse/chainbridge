@@ -4,8 +4,8 @@
 package utils
 
 import (
-	"github.com/ChainSafe/ChainBridge/bindings/GenericHandler"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/bindings/GenericHandler"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

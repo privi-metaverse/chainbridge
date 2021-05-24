@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ChainSafe/chainbridge-utils/core"
+	"github.com/Privi-Protocol/ChainBridge/core"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
+	metrics "github.com/Privi-Protocol/ChainBridge/metrics/types"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ChainSafe/log15"
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )
 
 var _ core.Writer = &writer{}
