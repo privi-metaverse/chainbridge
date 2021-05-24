@@ -13,7 +13,7 @@ import (
 	bridge "github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
 	erc20Handler "github.com/Privi-Protocol/ChainBridge/bindings/ERC20Handler"
 	erc721Handler "github.com/Privi-Protocol/ChainBridge/bindings/ERC721Handler"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
 )
 
 var (

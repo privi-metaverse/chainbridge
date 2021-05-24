@@ -12,7 +12,7 @@ import (
 	"github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
 	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
 	ethtest "github.com/Privi-Protocol/ChainBridge/shared/ethereum/testing"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

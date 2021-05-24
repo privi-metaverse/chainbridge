@@ -14,7 +14,7 @@ import (
 	ethtest "github.com/Privi-Protocol/ChainBridge/shared/ethereum/testing"
 	subutils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
 	subtest "github.com/Privi-Protocol/ChainBridge/shared/substrate/testing"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	log "github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"

@@ -8,7 +8,7 @@ import (
 	"math/big"
 
 	events "github.com/Privi-Protocol/chainbridge-substrate-events"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 )
 

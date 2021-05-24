@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Privi-Protocol/ChainBridge/core"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

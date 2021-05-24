@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
-	"github.com/Privi-Protocol/ChainBridge/crypto/secp256k1"
+	"github.com/Privi-Protocol/chainbridge-utils/crypto/secp256k1"
 )
 
 func NewClient(t *testing.T, endpoint string, kp *secp256k1.Keypair) *utils.Client {

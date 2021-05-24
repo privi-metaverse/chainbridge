@@ -12,7 +12,7 @@ import (
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
 	subtest "github.com/Privi-Protocol/ChainBridge/shared/substrate/testing"
-	message "github.com/Privi-Protocol/ChainBridge/msg"
+	message "github.com/Privi-Protocol/chainbridge-utils/msg"
 )
 
 func assertProposalState(t *testing.T, conn *Connection, prop *proposal, votes *voteState, hasValue bool) {

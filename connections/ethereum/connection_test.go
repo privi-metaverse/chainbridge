@@ -10,7 +10,7 @@ import (
 
 	ethutils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
 	ethtest "github.com/Privi-Protocol/ChainBridge/shared/ethereum/testing"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
 	"github.com/ChainSafe/log15"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 )

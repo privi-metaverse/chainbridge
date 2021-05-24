@@ -4,7 +4,7 @@
 package chains
 
 import (
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 )
 
 type Router interface {

@@ -10,8 +10,8 @@ import (
 
 	"github.com/Privi-Protocol/ChainBridge/connections/ethereum/egs"
 	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
-	"github.com/Privi-Protocol/ChainBridge/core"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -6,7 +6,7 @@ package substrate
 import (
 	"strconv"
 
-	"github.com/Privi-Protocol/ChainBridge/core"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
 )
 
 func parseStartBlock(cfg *core.ChainConfig) uint64 {

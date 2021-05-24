@@ -10,7 +10,7 @@ import (
 	"time"
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/ethereum"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	log "github.com/ChainSafe/log15"
 )
 

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	ethtest "github.com/Privi-Protocol/ChainBridge/shared/ethereum/testing"
-	"github.com/Privi-Protocol/ChainBridge/core"
-	"github.com/Privi-Protocol/ChainBridge/keystore"
-	"github.com/Privi-Protocol/ChainBridge/msg"
+	"github.com/Privi-Protocol/chainbridge-utils/core"
+	"github.com/Privi-Protocol/chainbridge-utils/keystore"
+	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )
