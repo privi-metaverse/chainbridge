@@ -9,13 +9,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ChainSafe/ChainBridge/chains"
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
-	"github.com/ChainSafe/chainbridge-utils/blockstore"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/chains"
+	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
+	"github.com/Privi-Protocol/ChainBridge/blockstore"
+	metrics "github.com/Privi-Protocol/ChainBridge/metrics/types"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ChainSafe/log15"
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )
 
 type listener struct {
