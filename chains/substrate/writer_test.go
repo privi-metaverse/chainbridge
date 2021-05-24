@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 
 	utils "github.com/Privi-Protocol/ChainBridge/shared/substrate"
 	subtest "github.com/Privi-Protocol/ChainBridge/shared/substrate/testing"
