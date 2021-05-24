@@ -4,10 +4,10 @@
 package ethereum
 
 import (
-	"github.com/ChainSafe/ChainBridge/bindings/Bridge"
-	"github.com/ChainSafe/chainbridge-utils/core"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/bindings/Bridge"
+	"github.com/Privi-Protocol/ChainBridge/core"
+	metrics "github.com/Privi-Protocol/ChainBridge/metrics/types"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/ChainSafe/log15"
 )
 

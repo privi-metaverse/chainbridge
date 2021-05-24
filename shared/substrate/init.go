@@ -4,7 +4,7 @@
 package utils
 
 import (
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/Privi-Protocol/ChainBridge/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/types"
 )
 
