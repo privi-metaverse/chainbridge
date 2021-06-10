@@ -169,6 +169,13 @@ type EventRegistryTmp struct {
 	Topics []types.Hash
 }
 
+type EventContractsContractEmitted struct {
+	Phase  		types.Phase
+	Contract    types.AccountID
+	Data		[]byte
+	Topics 		[]types.Hash
+}
+
 type Events struct {
 	types.EventRecords
 	events.Events
@@ -199,4 +206,5 @@ type Events struct {
 	Registry_Mint                    []EventRegistryMint                   //nolint:stylecheck,golint
 	Registry_RegistryCreated         []EventRegistryRegistryCreated        //nolint:stylecheck,golint
 	Registry_RegistryTmp             []EventRegistryTmp                    //nolint:stylecheck,golint
+	Contracts_ContractEmitted		 []EventContractsContractEmitted	   //nolint:stylecheck,golint
 }
