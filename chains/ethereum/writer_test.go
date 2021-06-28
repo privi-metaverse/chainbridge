@@ -241,7 +241,7 @@ func TestDuplicateMessage(t *testing.T) {
 	m := msg.NewFungibleTransfer(1, 0, 10, amount, resourceId, recipient.Bytes())
 	ethtest.RegisterResource(t, client, contracts.BridgeAddress, contracts.ERC20HandlerAddress, resourceId, erc20Address)
 
-	data := ConstructErc20ProposalData(m.Payload[0].([]byte), m.Payload[1].([]byte))
+	data := ConstructErc20ProposalData(m.Payload[0].([]byte), m.Payload[1].([]byte), m.Payload[2].([]byte))
 	dataHash := utils.Hash(append(contracts.ERC20HandlerAddress.Bytes(), data...))
 
 	// Helpful for debugging

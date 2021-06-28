@@ -21,6 +21,7 @@ func (l *listener) handleErc20DepositedEvent(destId msg.ChainId, nonce msg.Nonce
 		l.cfg.id,
 		destId,
 		nonce,
+		record.TokenAddress.Bytes(),
 		record.Amount,
 		record.ResourceID,
 		record.DestinationRecipientAddress,
