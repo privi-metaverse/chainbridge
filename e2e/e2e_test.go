@@ -234,11 +234,11 @@ func Test_ThreeRelayers(t *testing.T) {
 
 	// First lookup the substrate resource IDs
 	var rawRId types.Bytes32
-	subtest.QueryConst(t, subClient, "Example", "NativeTokenId", &rawRId)
+	subtest.QueryConst(t, subClient, "ChainBridgeHandler", "NativeTokenId", &rawRId)
 	subErc20ResourceId := msg.ResourceIdFromSlice(rawRId[:])
-	subtest.QueryConst(t, subClient, "Example", "Erc721Id", &rawRId)
+	subtest.QueryConst(t, subClient, "ChainBridgeHandler", "Erc721Id", &rawRId)
 	subErc721ResourceId := msg.ResourceIdFromSlice(rawRId[:])
-	subtest.QueryConst(t, subClient, "Example", "HashId", &rawRId)
+	subtest.QueryConst(t, subClient, "ChainBridgeHandler", "HashId", &rawRId)
 	genericHashResourceId := msg.ResourceIdFromSlice(rawRId[:])
 
 	// Base setup for ethA
