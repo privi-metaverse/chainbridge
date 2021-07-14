@@ -66,16 +66,16 @@ func TestMain(m *testing.M) {
 
 	var nativeTokenId, hashId, nftTokenId []byte
 
-	err = utils.QueryConst(client, "Example", "NativeTokenId", &nativeTokenId)
+	err = utils.QueryConst(client, "ChainBridgeHandler", "NativeTokenId", &nativeTokenId)
 	if err != nil {
 		panic(err)
 	}
 
-	err = utils.QueryConst(client, "Example", "HashId", &hashId)
+	err = utils.QueryConst(client, "ChainBridgeHandler", "HashId", &hashId)
 	if err != nil {
 		panic(err)
 	}
-	err = utils.QueryConst(client, "Example", "Erc721Id", &nftTokenId)
+	err = utils.QueryConst(client, "ChainBridgeHandler", "Erc721Id", &nftTokenId)
 	if err != nil {
 		panic(err)
 	}
