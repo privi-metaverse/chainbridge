@@ -9,6 +9,7 @@ import (
 	"github.com/Privi-Protocol/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/scale"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type voteState struct {
@@ -59,9 +60,10 @@ func (p *proposal) encode() ([]byte, error) {
 }
 
 func (w *writer) createFungibleProposal(m msg.Message) (*proposal, error) {
-	bigAmt := big.NewInt(0).SetBytes(m.Payload[0].([]byte))
+	tokenAddress := common.BytesToAddress(m.Payload[0].([]byte))
+	bigAmt := big.NewInt(0).SetBytes(m.Payload[1].([]byte))
 	amount := types.NewU128(*bigAmt)
-	recipient := types.NewAccountID(m.Payload[1].([]byte))
+	recipient := types.NewAccountID(m.Payload[2].([]byte))
 	depositNonce := types.U64(m.DepositNonce)
 
 	meta := w.conn.getMetadata()
@@ -73,6 +75,7 @@ func (w *writer) createFungibleProposal(m msg.Message) (*proposal, error) {
 		&meta,
 		method,
 		recipient,
+		tokenAddress,
 		amount,
 	)
 	if err != nil {

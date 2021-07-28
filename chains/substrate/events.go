@@ -41,6 +41,7 @@ func fungibleTransferHandler(evtI interface{}, log log15.Logger) (msg.Message, e
 		0, // Unset
 		msg.ChainId(evt.Destination),
 		msg.Nonce(evt.DepositNonce),
+		evt.TokenAddress[:20],
 		evt.Amount.Int,
 		resourceId,
 		evt.Recipient,
